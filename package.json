@@ -1,0 +1,22 @@
+{
+  "name": "vis-example",
+  "version": "1.0.0",
+  "description": "A vis.js sample application",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "vis.js"
+  ],
+  "author": "Jussi Kuosa",
+  "license": "ISC",
+  "dependencies": {
+    "vis": "^4.21.0",
+    "ws": "^6.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
